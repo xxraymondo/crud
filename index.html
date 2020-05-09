@@ -1,0 +1,76 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Alegreya|Lobster|Baloo+Chettan+2|Caladea|Caveat|Dancing+Script|Anton|&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <div class="container py-5">
+        <label class="py-2">product Name :</label>
+        <input id="productNameInp" type="text" class="form-control pb-2">
+        <label class="py-2">product price :</label>
+        <input id="productPriceInp" type="text" class="form-control pb-2">
+        <label class="py-2">product category :</label>
+        <input id="productCategoryInp" type="text" class="form-control pb-2">
+        <label class="py-2">Image link :</label>
+        <input id="imgLink" type="text" class="form-control pb-2">
+        <label class="py-2">product desc :</label>
+        <textarea id="productDescInp" class="form-control"></textarea>
+
+        <button onclick="addProduct()" class="btn btn-info mt-3 float-right">add product</button>
+    </div>
+    <div class="container py-5 flex-column">
+        <!-- <table class="table ">
+            <thead class="text-center">
+                <tr>
+                    <th scope="col">product number</th>
+                    <th scope="col">product Name</th>
+                    <th scope="col">product price</th>
+                    <th scope="col">product category</th>
+                    <th scope="col">product desc</th>
+                    <th scope="col">Update</th>
+                    <th scope="col">Delete</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody" class="text-center">
+
+            </tbody>
+        </table>
+        <h1 id="demo"></h1> -->
+
+    </div>
+    <h2 id="demo"></h2>
+    <div class="container mb-5 d-flex align-items-center flex-column justify-content-center">
+        <input class="w-50 form-control " onkeyup="searchProduct(this.value)" placeholder="search product">
+        <div id="searchRes" class="rounded w-50 ">
+
+        </div>
+    </div>
+    <div class="container">
+        <div id="product-box" class="row">
+
+        </div>
+
+
+    </div>
+    </div>
+    <div class="bigImg">
+        <img class="w-50 big-img-inner" height="400px" src="https://images.samsung.com/is/image/samsung/ae-ar-galaxy-s10-lite-g770-sm-g770fzwdxsg-frontprismwhite-204576372?$PD_GALLERY_L_JPG$" alt="">
+
+    </div>
+    <script src="script.js"></script>
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+</html>

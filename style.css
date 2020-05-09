@@ -1,0 +1,46 @@
+html{scroll-behavior: smooth;}
+body{
+    font-family: 'Baloo Chettan 2', cursive;
+   text-transform: capitalize;
+   background-color: #FAFAFA;
+}
+::selection {
+    background-color: #333333;
+    color: #c5c5c5;
+}
+.box{
+   line-height: 20px;
+   background-color: white;
+   margin-bottom: 20px;
+   box-shadow: 0px 0px 4px 2px rgb(219, 219, 219);
+}
+.productImg{
+    cursor: pointer;
+}
+.bigImg{
+  position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+background-color: rgba(0, 0, 0, 0.503);  
+
+}
+.big-img-inner{
+    height: 80%;
+    width: 50%;
+    margin: auto;
+    position: absolute;
+}
+.upBtn{
+    float: left;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+}
+.delBtn{
+    float: right;
+    padding: 5px 5px;
+}
